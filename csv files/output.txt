@@ -1,0 +1,600 @@
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 29.85 TotalCharges 29.85
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 56.95 TotalCharges 1889.5
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 53.85 TotalCharges 108.15
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 42.3 TotalCharges 1840.75
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 70.7 TotalCharges 151.65
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 99.65 TotalCharges 820.5
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 89.1 TotalCharges 1949.4
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 29.75 TotalCharges 301.9
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 104.8 TotalCharges 3046.05
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 56.15 TotalCharges 3487.95
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 49.95 TotalCharges 587.45
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 18.95 TotalCharges 326.8
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 100.35 TotalCharges 5681.1
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 103.7 TotalCharges 5036.3
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 105.5 TotalCharges 2686.05
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 113.25 TotalCharges 7895.15
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.65 TotalCharges 1022.95
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 106.7 TotalCharges 7382.25
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 55.2 TotalCharges 528.35
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 90.05 TotalCharges 1862.9
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 39.65 TotalCharges 39.65
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 19.8 TotalCharges 202.25
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.15 TotalCharges 20.15
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies No Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 59.9 TotalCharges 3505.1
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 59.6 TotalCharges 2970.3
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 55.3 TotalCharges 1530.6
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 99.35 TotalCharges 4749.15
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 30.2 TotalCharges 30.2
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 90.25 TotalCharges 6369.45
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 64.7 TotalCharges 1093.1
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies No Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 96.35 TotalCharges 6766.95
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 95.5 TotalCharges 181.65
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 66.15 TotalCharges 1874.45
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 20.2 TotalCharges 20.2
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 45.25 TotalCharges 45.25
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies No Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 99.9 TotalCharges 7251.7
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 69.7 TotalCharges 316.9
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 74.8 TotalCharges 3548.3
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 106.35 TotalCharges 3549.25
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 97.85 TotalCharges 1105.4
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 49.55 TotalCharges 475.7
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 69.2 TotalCharges 4872.35
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.75 TotalCharges 418.25
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies No Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 79.85 TotalCharges 4861.45
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 76.2 TotalCharges 981.45
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 84.5 TotalCharges 3906.7
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 49.25 TotalCharges 97.0
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 80.65 TotalCharges 144.15
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 79.75 TotalCharges 4217.8
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies No Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 64.15 TotalCharges 4254.1
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 90.25 TotalCharges 3838.75
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 99.1 TotalCharges 1426.4
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 69.5 TotalCharges 1752.65
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 80.65 TotalCharges 633.3
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 74.85 TotalCharges 4456.35
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 95.45 TotalCharges 1752.55
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 99.65 TotalCharges 6311.2
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 108.45 TotalCharges 7076.35
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 24.95 TotalCharges 894.3
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 107.5 TotalCharges 7853.7
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 100.5 TotalCharges 4707.1
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 89.9 TotalCharges 5450.7
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies No Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 42.1 TotalCharges 2962.0
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies No Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 54.4 TotalCharges 957.1
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 94.4 TotalCharges 857.25
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 75.3 TotalCharges 244.1
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract One year PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 78.9 TotalCharges 3650.35
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 79.2 TotalCharges 2497.2
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 20.15 TotalCharges 930.9
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 79.85 TotalCharges 887.35
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 49.05 TotalCharges 49.05
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 20.4 TotalCharges 1090.65
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 111.6 TotalCharges 7099.0
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 24.25 TotalCharges 1424.6
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 64.5 TotalCharges 177.4
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 110.5 TotalCharges 6139.5
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies Yes Contract One year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 55.65 TotalCharges 2688.85
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 54.65 TotalCharges 482.25
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 74.75 TotalCharges 2111.3
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 25.9 TotalCharges 1216.6
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 79.35 TotalCharges 79.35
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 50.55 TotalCharges 565.35
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 75.15 TotalCharges 496.9
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 103.8 TotalCharges 4327.5
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 20.15 TotalCharges 973.35
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 99.3 TotalCharges 918.75
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract One year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 62.15 TotalCharges 2215.45
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 20.65 TotalCharges 1057.0
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 19.95 TotalCharges 927.1
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 33.75 TotalCharges 1009.25
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 82.05 TotalCharges 2570.2
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 74.7 TotalCharges 74.7
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 84.0 TotalCharges 5714.25
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 111.05 TotalCharges 7107.0
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 100.9 TotalCharges 7459.05
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 78.95 TotalCharges 927.35
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies No Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 66.85 TotalCharges 4748.7
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 21.05 TotalCharges 113.85
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 21.0 TotalCharges 1107.2
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 98.5 TotalCharges 2514.5
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.2 TotalCharges 20.2
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 19.45 TotalCharges 19.45
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 95.0 TotalCharges 3605.6
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 45.55 TotalCharges 3027.25
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 110.0 TotalCharges 7611.85
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 24.3 TotalCharges 100.2
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 104.15 TotalCharges 7303.05
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 30.15 TotalCharges 927.65
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 94.35 TotalCharges 3921.3
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 19.4 TotalCharges 1363.25
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 96.75 TotalCharges 5238.9
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 57.95 TotalCharges 3042.25
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 91.65 TotalCharges 3954.1
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 76.5 TotalCharges 2868.15
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 54.6 TotalCharges 3423.5
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 89.85 TotalCharges 248.4
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 31.05 TotalCharges 1126.35
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 100.25 TotalCharges 1064.65
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.65 TotalCharges 835.15
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 85.2 TotalCharges 2151.6
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 99.8 TotalCharges 5515.45
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.7 TotalCharges 112.75
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 74.4 TotalCharges 229.55
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 50.7 TotalCharges 350.35
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.85 TotalCharges 62.9
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies No Contract Two year PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 88.95 TotalCharges 3027.65
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 78.05 TotalCharges 2135.5
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 23.55 TotalCharges 1723.95
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 19.75 TotalCharges 19.75
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 56.45 TotalCharges 3985.35
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 85.95 TotalCharges 1215.65
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 58.6 TotalCharges 1502.65
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies No Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 50.55 TotalCharges 3260.1
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 35.45 TotalCharges 35.45
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 44.35 TotalCharges 81.25
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 25.7 TotalCharges 1188.2
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 75.0 TotalCharges 1778.5
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.2 TotalCharges 1277.75
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 19.6 TotalCharges 1170.55
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 70.45 TotalCharges 70.45
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 1 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 88.05 TotalCharges 6425.65
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 71.15 TotalCharges 563.65
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 101.05 TotalCharges 5971.25
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 84.3 TotalCharges 5289.05
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 23.95 TotalCharges 1756.2
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies No Contract Two year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 99.05 TotalCharges 6416.7
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 19.6 TotalCharges 61.35
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 45.65 TotalCharges 45.65
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies No Contract One year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 64.5 TotalCharges 1929.95
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 69.5 TotalCharges 1071.4
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 68.55 TotalCharges 564.35
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 95.0 TotalCharges 655.5
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 108.15 TotalCharges 7930.55
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 86.1 TotalCharges 5215.25
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 19.7 TotalCharges 113.5
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 80.9 TotalCharges 1152.8
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 84.15 TotalCharges 1821.95
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.15 TotalCharges 419.9
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies No Contract Two year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 64.25 TotalCharges 1024.0
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 25.7 TotalCharges 251.6
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 56.0 TotalCharges 764.55
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 82.4 TotalCharges 1592.35
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 69.7 TotalCharges 135.2
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 73.9 TotalCharges 3958.25
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.6 TotalCharges 233.9
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 19.9 TotalCharges 1363.45
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 70.9 TotalCharges 273.0
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 89.05 TotalCharges 6254.45
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 1 Partner Yes Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 45.3 TotalCharges 2651.2
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 20.4 TotalCharges 321.4
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV No StreamingMovies No Contract One year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 84.25 TotalCharges 3539.25
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 104.4 TotalCharges 242.8
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 81.95 TotalCharges 1181.75
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 94.85 TotalCharges 5000.2
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 20.55 TotalCharges 654.55
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 24.7 TotalCharges 780.2
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 74.45 TotalCharges 1145.7
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 1 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 76.45 TotalCharges 503.6
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 105.35 TotalCharges 1559.25
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 20.55 TotalCharges 1252.0
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 29.95 TotalCharges 29.95
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 45.3 TotalCharges 45.3
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 84.5 TotalCharges 662.65
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract One year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 74.75 TotalCharges 2453.3
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 79.25 TotalCharges 1111.65
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 24.8 TotalCharges 24.8
+Output: the customer will churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Mailed check MonthlyCharges 51.8 TotalCharges 1023.85
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService No MultipleLines No phone service InternetService DSL OnlineSecurity No OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 30.4 TotalCharges 82.15
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract One year PaperlessBilling No PaymentMethod Electronic check MonthlyCharges 19.65 TotalCharges 244.8
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity No OnlineBackup Yes DeviceProtection No TechSupport No StreamingTV No StreamingMovies No Contract Month-to-month PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 56.6 TotalCharges 2379.1
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService DSL OnlineSecurity Yes OnlineBackup No DeviceProtection No TechSupport Yes StreamingTV No StreamingMovies Yes Contract One year PaperlessBilling Yes PaymentMethod Credit card (automatic) MonthlyCharges 71.9 TotalCharges 3173.35
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV No StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 91.0 TotalCharges 531.0
+Output: the customer will churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Bank transfer (automatic) MonthlyCharges 19.75 TotalCharges 1375.4
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection Yes TechSupport No StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 109.7 TotalCharges 8129.3
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling No PaymentMethod Credit card (automatic) MonthlyCharges 19.3 TotalCharges 1192.7
+Output: the customer will not churn
+
+Input: User: gender Female SeniorCitizen 0 Partner Yes Dependents No PhoneService Yes MultipleLines No InternetService Fiber optic OnlineSecurity Yes OnlineBackup Yes DeviceProtection No TechSupport Yes StreamingTV Yes StreamingMovies No Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 96.55 TotalCharges 1901.65
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 24.1 TotalCharges 587.4
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents No PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Month-to-month PaperlessBilling Yes PaymentMethod Electronic check MonthlyCharges 111.35 TotalCharges 6519.75
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner Yes Dependents Yes PhoneService Yes MultipleLines Yes InternetService Fiber optic OnlineSecurity No OnlineBackup Yes DeviceProtection Yes TechSupport Yes StreamingTV Yes StreamingMovies Yes Contract Two year PaperlessBilling Yes PaymentMethod Bank transfer (automatic) MonthlyCharges 112.25 TotalCharges 8041.65
+Output: the customer will not churn
+
+Input: User: gender Male SeniorCitizen 0 Partner No Dependents Yes PhoneService Yes MultipleLines No InternetService No OnlineSecurity No internet service OnlineBackup No internet service DeviceProtection No internet service TechSupport No internet service StreamingTV No internet service StreamingMovies No internet service Contract Month-to-month PaperlessBilling No PaymentMethod Mailed check MonthlyCharges 20.75 TotalCharges 20.75
+Output: the customer will not churn
+

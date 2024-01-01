@@ -1,0 +1,750 @@
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges 100-150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges 50-100
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges 100-150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges 50-100
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges 50-100
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges 100-150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges 100-150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges 100-150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges 50-100
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges 50-100
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges 50-100
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges 50-100
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges 100-150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges 100-150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges 50-100
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges 50-100
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges 50-100
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Bank Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges 50-100
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges 50-100
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Credit Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges 100-150
+Output: the customer will churn
+
+Input: Demographics AgeGender Female Services PhoneService No MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Bank Charges MonthlyCharges 100-150 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Credit Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Female Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling No PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling No PaymentMethod Mailed Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines No Payment PaperlessBilling Yes PaymentMethod Mailed Charges MonthlyCharges <50 TotalCharges <50
+Output: the customer will churn
+
+Input: Demographics AgeGender Male Services PhoneService Yes MultipleLines Yes Payment PaperlessBilling Yes PaymentMethod Electronic Charges MonthlyCharges 50-100 TotalCharges >=150
+Output: the customer will not churn
+
